@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminProfileController;
 
 Route::get('/', function () {
     return view('home');
@@ -32,3 +33,4 @@ Route::get('/guides', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/guides', [AdminProfileController::class, 'index']);
