@@ -11,3 +11,6 @@ Route::get('/services', function () {
 Route::get('/extra', function () {
     return view('extra');
 });
+Route::get('/campus', function () {
+    return view('campus');
+});
