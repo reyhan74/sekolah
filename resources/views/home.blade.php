@@ -21,7 +21,7 @@
                                     <p class="mb-5 fs-5">Dengan program keahlian unggulan, guru-guru berpengalaman, dan lingkungan belajar yang nyaman dan inspiratif, SMK Canda Bhirawa siap menjadi tempat terbaik untuk menggapai masa depanmu. 
                                     </p>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="index2.php">login trial now</a>
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="index">login trial now</a>
                                     </div>
                                 </div>
                             </div>
