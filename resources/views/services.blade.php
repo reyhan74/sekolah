@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Services PageS')
+@section('title', 'Services Page')
 
 @section('content')
 <!-- Header Start -->
