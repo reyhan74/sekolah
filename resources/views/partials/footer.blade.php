@@ -1,6 +1,5 @@
-<!-- About Start -->
-       
-         <div class="container-fluid footer py-5">
+<footer class="bg-primary ">
+        <div class="container-fluid footer py-5 ">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-8 col-lg-8 col-xl-4">
@@ -46,7 +45,7 @@
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright text-body py-4">
+        <div class="container-fluid copyright text-body py-4 " >
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-end mb-md-0">
@@ -63,3 +62,4 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+</footer>

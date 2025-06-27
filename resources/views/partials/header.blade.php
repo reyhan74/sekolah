@@ -1,8 +1,9 @@
-<!-- Topbar Start -->
-<div class="container-fluid bg-primary px-5 d-none d-lg-block fixed-top" id="topbar">
-    <div class="row gx-0">
-        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-            <div class="d-inline-flex align-items-center" style="height: 45px;">
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.youtube.com/channel/UCFKw9fQO678f5yCYIkDH0UA">
                     <i class="fab fa-youtube fw-normal"></i>
                 </a>
@@ -33,19 +34,19 @@
 <!-- Topbar End -->
 
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 fixed-top" id="mainNavbar">
-    <div class="container-fluid">
-        <a href="{{ url('/') }}" class="navbar-brand p-0">
-            <h1 class="m-0 d-flex align-items-center">
-                <img src="{{ asset('img/cb/logocb.png') }}" alt="SMK CB Logo" style="height: 60px; width: auto; margin-right: 10px;">
-                SMK Canda Bhirawa
-            </h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="/" class="navbar-brand p-0">
+                <h1 class="m-0">
+                    <img src="img/cb/logocb.png" alt="Travela Logo" style="height: 60px; width: auto; margin-right: 10px;">
+                    SMK Canda Bhirawa
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
                 <a href="{{ url('/') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
 
                 <div class="nav-item dropdown">

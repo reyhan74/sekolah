@@ -37,14 +37,7 @@
             color: #fff !important;
             border-radius: 8px;
         }
-        body {
-            padding-top: 45px; /* 45(topbar) + 70(navbar) */
-            margin: 0;
-        }
-        #mainNavbar {
-        top: 45px;
-        z-index: 1030;
-        }
+        
     </style>
 </head>
 <body>
@@ -61,15 +54,15 @@
     @include('partials.footer')
 
     <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
+        <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js') }}">"></script>
+        <script src="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js') }}">"></script>
+        <script src="{{ asset('lib/easing/easing.min.js') }}">"></script>
+        <script src="{{ asset('lib/waypoints/waypoints.min.js') }}">"></script>
+        <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}">"></script>
+        <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="{{ asset('js/main.js') }}">"></script>
 </body>
 </html>
