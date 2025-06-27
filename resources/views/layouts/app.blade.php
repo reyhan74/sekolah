@@ -49,7 +49,7 @@
     <main>
         @yield('content')
     </main>
-
+    @yield('scripts')
     {{-- Footer --}}
     @include('partials.footer')
 
