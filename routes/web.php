@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminProfileController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('home');
@@ -33,4 +34,9 @@ Route::get('/guides', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::post('/send-email', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/guides', [AdminProfileController::class, 'index']);
