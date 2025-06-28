@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminProfileController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AuthController;
+
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
+
 
 Route::get('/', function () {
     return view('home');
@@ -40,3 +45,4 @@ Route::get('/contact', function () {
 
 Route::post('/send-email', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/guides', [AdminProfileController::class, 'index']);
+
